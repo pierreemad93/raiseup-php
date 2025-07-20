@@ -1,0 +1,56 @@
+body {
+  height: 2000px;
+  scroll-behavior: smooth;
+  background-color: #fff;
+  color: #000;
+}
+
+body.dark-mode {
+  background-color: #000;
+  color: #fff;
+}
+
+.active {
+  background-color: blueviolet;
+  color: white !important;
+}
+
+/* .nav-item .nav-link:hover {
+    background-color: blueviolet;
+    color: white !important;
+} */
+
+.scroll-to-top {
+  background-color: blueviolet;
+  /* color: white; */
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+  display: none;
+}
+
+.home,
+.contact,
+.about,
+.users {
+  height: 100vh;
+  /* color: white; */
+  font-size: 4rem;
+  text-align: center;
+  /* padding-top: 60px; */
+}
+.home {
+  /* background-color: #e74c3c; */
+}
+.contact {
+  /* background-color: #27ae60; */
+}
+.about {
+  /* background-color: #2980b9; */
+}
